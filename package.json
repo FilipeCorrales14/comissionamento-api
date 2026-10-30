@@ -1,0 +1,16 @@
+{
+  "name": "comissionamento-api",
+  "version": "0.1.0",
+  "description": "API para checklists de comissionamento de sistemas de segurança eletrônica e incêndio.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "author": "Filipe Corrales Cardoso",
+  "license": "MIT"
+}
