@@ -1,0 +1,32 @@
+{
+  "key": "cftv",
+  "name": "CFTV",
+  "sections": [
+    {
+      "name": "Infraestrutura",
+      "items": [
+        { "code": "CFTV-01", "description": "Câmeras fixadas conforme projeto, com suporte e vedação adequados", "evidence": true },
+        { "code": "CFTV-02", "description": "Cabeamento identificado nas duas pontas", "evidence": false },
+        { "code": "CFTV-03", "description": "Switch PoE com orçamento de potência compatível com a carga instalada", "evidence": false },
+        { "code": "CFTV-04", "description": "Gravador (NVR) instalado em rack, alimentado por nobreak", "evidence": true }
+      ]
+    },
+    {
+      "name": "Configuração",
+      "items": [
+        { "code": "CFTV-05", "description": "Senhas padrão de câmeras e NVR alteradas", "evidence": false },
+        { "code": "CFTV-06", "description": "Data, hora e NTP sincronizados em todos os equipamentos", "evidence": false },
+        { "code": "CFTV-07", "description": "Gravação contínua ou por movimento conforme especificação", "evidence": false },
+        { "code": "CFTV-08", "description": "Retenção de gravação atinge o número de dias especificado", "evidence": true }
+      ]
+    },
+    {
+      "name": "Testes",
+      "items": [
+        { "code": "CFTV-09", "description": "Imagem diurna e noturna (IR) validada em cada câmera", "evidence": true },
+        { "code": "CFTV-10", "description": "Reprodução e exportação de gravação testadas", "evidence": false },
+        { "code": "CFTV-11", "description": "Acesso remoto testado com usuário do cliente", "evidence": false }
+      ]
+    }
+  ]
+}

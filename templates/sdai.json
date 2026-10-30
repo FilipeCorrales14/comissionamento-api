@@ -1,0 +1,32 @@
+{
+  "key": "sdai",
+  "name": "Detecção e alarme de incêndio",
+  "sections": [
+    {
+      "name": "Instalação",
+      "items": [
+        { "code": "SDAI-01", "description": "Detectores instalados nas posições e alturas do projeto", "evidence": true },
+        { "code": "SDAI-02", "description": "Acionadores manuais e sinalizadores audiovisuais nas rotas de fuga", "evidence": true },
+        { "code": "SDAI-03", "description": "Laços de detecção identificados e com resistência de fim de linha", "evidence": false },
+        { "code": "SDAI-04", "description": "Central alimentada por circuito exclusivo e baterias", "evidence": false }
+      ]
+    },
+    {
+      "name": "Programação",
+      "items": [
+        { "code": "SDAI-05", "description": "Endereços dos dispositivos cadastrados com descrição do local", "evidence": false },
+        { "code": "SDAI-06", "description": "Matriz de causa e efeito programada conforme projeto", "evidence": true }
+      ]
+    },
+    {
+      "name": "Testes",
+      "items": [
+        { "code": "SDAI-07", "description": "Teste funcional de 100% dos detectores com fumaça ou calor de teste", "evidence": true },
+        { "code": "SDAI-08", "description": "Teste de todos os acionadores manuais", "evidence": true },
+        { "code": "SDAI-09", "description": "Alarme audível em todos os ambientes", "evidence": false },
+        { "code": "SDAI-10", "description": "Supervisão de falha (laço aberto, falta de energia, bateria) indicada na central", "evidence": false },
+        { "code": "SDAI-11", "description": "Autonomia das baterias verificada", "evidence": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "key": "controle-acesso",
+  "name": "Controle de acesso",
+  "sections": [
+    {
+      "name": "Instalação",
+      "items": [
+        { "code": "CA-01", "description": "Leitoras e controladoras instaladas nos pontos do projeto", "evidence": true },
+        { "code": "CA-02", "description": "Fechaduras eletromagnéticas com força de retenção especificada", "evidence": false },
+        { "code": "CA-03", "description": "Botoeira de saída e acionador de emergência em cada porta", "evidence": true },
+        { "code": "CA-04", "description": "Fonte com bateria dimensionada para a autonomia exigida", "evidence": false }
+      ]
+    },
+    {
+      "name": "Integração",
+      "items": [
+        { "code": "CA-05", "description": "Liberação das portas de rota de fuga integrada ao alarme de incêndio", "evidence": true },
+        { "code": "CA-06", "description": "Controladoras comunicando com o software de gestão", "evidence": false },
+        { "code": "CA-07", "description": "Eventos (acesso negado, porta forçada, porta aberta) registrados", "evidence": false }
+      ]
+    },
+    {
+      "name": "Testes",
+      "items": [
+        { "code": "CA-08", "description": "Acesso liberado e negado testado com credenciais de teste", "evidence": false },
+        { "code": "CA-09", "description": "Comportamento das portas na falta de energia conforme especificado", "evidence": true },
+        { "code": "CA-10", "description": "Treinamento de operadores realizado", "evidence": true }
+      ]
+    }
+  ]
+}
